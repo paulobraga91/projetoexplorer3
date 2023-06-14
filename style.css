@@ -1,6 +1,9 @@
 body{
 background-color: #2C2B3D;
 color: #C2C2C2;
+border: solid 1px red;
+margin: 0 20px 20px 20px;
+
 
 }
 
@@ -31,7 +34,7 @@ color: #C2C2C2;
     font-family: 'JetBrains Mono';
 font-style: normal;
 font-weight: 700;
-font-size: 36px;
+font-size: 33px;
 line-height: 40px;
 }
 
@@ -44,11 +47,17 @@ ul li a{
     font-size: 14px;
     line-height: 28px;
 }
+
+ul li :hover{
+    color: #838080;
+}
+
 #page {
     display: flex;
     justify-content: space-between;
     margin-left: 99px;
     margin-right: 99px;
+    margin-bottom: 157px;
     gap: 50px;
     
 }
@@ -56,19 +65,27 @@ span{
     color: #00BFA6;
 }
 
+strong{
+    font-style: bold;
+}
 footer{
 font-family: 'JetBrains Mono';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 28px;
-margin-top: 157px;
+
 text-align: center;
+
+display: flex;
+justify-content: flex-start;
+gap: 320px;
+
 
 }
 
 .linha{
-    border-top: solid 2px #00BFA6 ;
+    border-top: solid 1px #00BFA6 ;
     width: 568px;
     height:0;
     margin: 0 auto 8px;
@@ -82,7 +99,5 @@ footer a{
 }
 
 #cadeado{
-position: fixed;
-left: 0;
-bottom: 0;
+border: solid 1px red;
 }
